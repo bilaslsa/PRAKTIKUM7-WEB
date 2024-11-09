@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    background-color: rgb(105, 13, 192);
+    justify-content: space-between;
+    padding: 10px 15px;
+    align-items: center;
+    & ul{
+        display: flex;
+        list-style: none;
+        & a{
+            color: #fff;
+            font-weight: bold;
+            margin-right: 10px;
+            text-decoration: none;
+        }
+    }
+}
+.img img{
+    width: 200px;
+}
+
+#banner{
+    height: 100vh;
+    width: 100%;
+    background:url(Banner-Web-1-scaled\ \(1\).webp);
+    display: flex;
+    align-items: center;
+    & .promosi{
+        width: 25%;
+        margin-left: 20px;
+        color: #fff;
+        & h2{
+            background-color: rgb(105, 13, 192);
+            text-align: justify;
+            padding: 2px;
+            margin-bottom: -15px;
+        }
+        & p{
+            background-color: chocolate;
+            text-align: justify;
+            padding: 2px;
+        }
+    }
+    
+}
+
+#prodi{
+    background-color:blue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    & .card{
+        background-color: #fff;
+        width: 25%;
+        max-width: 33%;
+        border-radius: 25px;
+        padding: 2px 20px 10px 20px;
+        margin: 5px;
+    }
+.btn-mobile{
+    border: 1px solid rgb(84, 26, 138);
+    padding: 2px 20px;
+    border-radius: 15px;
+}
+}
